@@ -23,12 +23,26 @@ const App = () => {
   return (
     <div className='bg-gray-100'>
       <ToastContainer />
+
+      {/* 🔹 Top Banner */}
+      <div className="w-full bg-green-600 text-white text-center py-2 text-md font-medium">
+        Bulk Order for Events/Festivals?{" "}
+        <a
+          href="https://wa.me/916386242220" // <-- replace with your WhatsApp number
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline font-semibold hover:text-gray-200"
+        >
+          Message us on WhatsApp
+        </a>
+      </div>
+
       {/* Navbar full width */}
       <Navbar />
       <SearchBar />
 
       {/* Main content with padding */}
-      <div className=" bg-gray-400 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+      <div className="bg-gray-400 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/collection' element={<Collection />} />
