@@ -1,0 +1,22 @@
+/* Change arrow colors */
+.swiper-button-prev,
+.swiper-button-next {
+  color: black !important; /* Make arrows red */
+}
+
+/* Change pagination dot color */
+.swiper-pagination-bullet {
+  background-color: black !important;
+}
+
+/* Active pagination dot */
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+
+.custom-swiper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensures the image is fully visible */
+  max-height: 500px; /* Adjust this based on your layout */
+}
