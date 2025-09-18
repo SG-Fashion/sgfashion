@@ -34,7 +34,7 @@ const Footer = () => {
 
       </div>
 
-        <div>300
+        <div>
             <hr />
             <p className='bg-gray-600 text-sm text-center'>Copyright 2025@ sg-fashions.com - All Right Reserved.</p>
         </div>
