@@ -191,7 +191,7 @@ const PlaceOrder = () => {
       amount: order.amount,
       currency: 'INR',
       order_id: order.id,
-      name: 'STOFFS Fashion',
+      name: 'SG Fashion',
       description: 'Order Payment',
       prefill: {
         name: `${formData.firstName} ${formData.lastName}`,
